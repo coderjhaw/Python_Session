@@ -1,0 +1,10 @@
+1. True and False or True - False
+2. not(True or False) and False - False
+3. not(False and True or  True) - False
+4.  (3 < 5) and (10 < 2) - False
+5. 8 < 3 == 2 * 2 >= 1 - False
+6. 3 == 5 and not(10 > 2) - False
+7. not (5 > 1) - False
+8. (5 == 4) or (2 < 6) - True
+9. (not(12 > 9) or (4 < 1) and (5 == 4)) - False
+10. (not (9 == 8) or (24 < 12)) or (8 > 20) and not (9 == 6) - True
