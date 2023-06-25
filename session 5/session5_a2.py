@@ -24,6 +24,6 @@ print("5. List sorted in ascending order: " + str(list_num))
 # Reverse order of the list
 # list_num.reverse()
 # list_num.sort(reverse=True)
+# list_num[::-1]
 print("6. Reverse order of list : " + str(sorted(list_num, reverse=True)))
-
 
