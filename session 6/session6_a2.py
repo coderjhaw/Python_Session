@@ -24,7 +24,7 @@ login_username = input("Enter your username: ")
 if login_username == user["username"]:
     login_password = pwinput.pwinput("Enter your password: ")
     if login_password == user["password"]:
-        print(f"Login successful. Welcome, {login_username}")
+        print(f"Login successful. Welcome, {login_username}!")
     else:
         print("Invalid password")
 else:
