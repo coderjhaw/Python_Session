@@ -21,19 +21,14 @@ def checkPassword(password):
         if char.isupper():
             hasUppercase = True
             break
-    # WARNING IF PASSWORD DOESN'T HAVE AN UPPERCASE
-    # if not hasUppercase:
-    #     return "Password must have an upper case letter!"
-
+    
     # 3. NEXT IF PASSWORD HAS A LOWERCASE LETTER
     hasLowercase = False
     for char in password:
         if char.islower():
             hasLowercase = True
             break
-    # WARNING IF PASSWORD DOESN'T HAVE A LOWERCASE 
-    # if not hasLowercase:
-    #     return "Password must have a lower case letter!"
+   
 
     # 4. THEN CHECK IF PASSWORD HAS A NUMBER
     hasNumber = False
@@ -41,9 +36,7 @@ def checkPassword(password):
         if char.isdigit():
             hasNumber = True
             break
-    # WARNING IF PASSWORD DOESN'T HAVE A NUMBER
-    # if not hasNumber:
-    #     return "Password should contain at least one digit number."
+    
         
     # 5. LASTLY IF PASSWORD HAS A SPECIAL CHARACTERS OR SYMBOLS
     symbols = "!@#$%^&*(),.?\":{}|<>"
@@ -52,9 +45,7 @@ def checkPassword(password):
         if char in symbols:
             hasSymbol = True
             break
-    # WARNING IF PASSWORD DOESN'T HAVE AT LEAST 1 SPECIAL CHARACTER
-    # if not hasSymbol:
-    #     return "Password should include special character or symbol like !@#$%^&*("
+    
     
 
     if hasLowercase and hasNumber and hasUppercase and hasSymbol:
