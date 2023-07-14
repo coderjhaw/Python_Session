@@ -56,7 +56,7 @@ while True:
         md.begin_end()
         while True:   
             username = input("Username: ")
-            password = input("Password: ")
+            password = pw.pwinput("Password: ")
 
             if md.login_user(username, password) == "Successful":
                 current_user = username
